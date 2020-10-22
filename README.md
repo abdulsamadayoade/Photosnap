@@ -1,0 +1,2 @@
+# Photosnap
+ A photography website
