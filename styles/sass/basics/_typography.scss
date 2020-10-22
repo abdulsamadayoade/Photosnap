@@ -26,3 +26,17 @@ $letter-spacing-S: 2px;
 $line-height-L: 48px;
 $line-height-M: 25px;
 $line-height-S: 16px;
+
+h1 {
+    font-size: $font-size-h1;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing-L;
+}
+
+h1.white {
+    color: $white;
+}
+
+p {
+    color: $opaque-grey;
+}

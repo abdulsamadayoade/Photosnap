@@ -1,0 +1,24 @@
+.section_text {
+    width: 43%;
+    height: 590px;
+    display: flex;
+    align-items: center;
+    background-color: $black;
+
+    &-box {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0 55px;
+
+        p {
+            line-height: $line-height-M;
+            margin: 40px 0 55px;
+        }
+    }
+}
+
+.section_image {
+    width: 57%;
+    background-image: url("../../../images/create-and-share.jpg");
+}
