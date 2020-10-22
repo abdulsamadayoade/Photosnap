@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "DM Sans Regular";
+  src: url("../../../textfont/DMSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans Bold";
+  src: url("../../../textfont/DMSans-Bold.ttf") format("truetype");
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "DM Sans Bold", sans-serif;
+  letter-spacing: 2px;
+  padding: 11px 25px;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.btn-black:hover {
+  background-color: #dfdfdf;
+  color: #000000;
+}
+
+header {
+  height: 70px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+}
+
+.nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav_list-item {
+  margin-right: 45px;
+}
+
+.nav_list-link {
+  text-transform: uppercase;
+  font-family: "DM Sans Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #000000;
+  -webkit-transition: color .5s ease;
+  transition: color .5s ease;
+}
+
+.nav_list-link:hover {
+  color: #dfdfdf;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans Regular", sans-serif;
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
