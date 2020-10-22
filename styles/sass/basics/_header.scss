@@ -1,0 +1,38 @@
+header {
+    height: 70px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.nav_list {
+    display: flex;
+
+    &-item {
+        margin-right: 45px;
+    }
+
+    &-link {
+        text-transform: uppercase;
+        font-family: $ff-bold;
+        font-size: $font-size-h4;
+        letter-spacing: 2px;
+        color: $black;
+        transition: color .5s ease;
+
+        &:hover {
+            color: $light-grey;
+        }
+    }
+}

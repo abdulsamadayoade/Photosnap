@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: $font-size-h4;
+    font-family: $ff-bold;
+    letter-spacing: $letter-spacing-S;
+    padding: 11px 25px;
+}
+
+.btn-black {
+    background-color: $black;
+    color: $white;
+    transition: all .4s;
+
+    &:hover {
+        background-color: $light-grey;
+        color: $black;
+    }
+}
