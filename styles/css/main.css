@@ -18,7 +18,13 @@ h1.white {
   color: #ffffff;
 }
 
-p {
+h3 {
+  font-family: "DM Sans Bold", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+p.opaque-grey {
   color: rgba(223, 223, 223, 0.6);
 }
 
@@ -227,5 +233,108 @@ a {
 
 .section-everyone-img {
   background-image: url("../../../images/designed-for-everyone.jpg");
+  background-size: cover;
+}
+
+.image-container {
+  display: block;
+  height: 500px;
+  width: 25%;
+  position: relative;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.image-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(27deg, #FFC593 0%, #BC7198 49%, #5A77FF 95%);
+  opacity: 0;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.image-container:hover {
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+}
+
+.image-container:hover::after {
+  opacity: 1;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 35px 0;
+}
+
+.image-box {
+  color: #ffffff;
+  width: 80%;
+  max-width: 100%;
+}
+
+.image-box p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.image-textbox {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px 5px 18px;
+}
+
+.image-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 18px 5px 5px;
+}
+
+.image-link h6 {
+  text-transform: uppercase;
+  font-family: "DM Sans Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.image-1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../../images/mountains.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../../images/mountains.jpg");
+  background-size: cover;
+}
+
+.image-2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../../images/cityscapes.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../../images/cityscapes.jpg");
+  background-size: cover;
+}
+
+.image-3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../../images/18-days-voyage.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../../images/18-days-voyage.jpg");
+  background-size: cover;
+}
+
+.image-4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../../images/architecturals.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../../images/architecturals.jpg");
   background-size: cover;
 }
