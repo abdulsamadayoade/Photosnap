@@ -22,6 +22,10 @@ p {
   color: rgba(223, 223, 223, 0.6);
 }
 
+p.opaque-black {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .btn {
   display: inline-block;
   border: none;
@@ -89,6 +93,15 @@ p {
 
 .invite-link-white::after {
   background-image: url("../../../images/arrow-white.svg");
+}
+
+.invite-link-black {
+  color: #000000;
+  max-width: 200px;
+}
+
+.invite-link-black::after {
+  background-image: url("../../../images/arrow-black.svg");
 }
 
 header {
@@ -176,7 +189,14 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.section_text_black {
   background-color: #000000;
+}
+
+.section_text_white {
+  background-color: #ffffff;
 }
 
 .section_text-box {
@@ -193,5 +213,19 @@ a {
 
 .section_image {
   width: 57%;
+}
+
+.section-create-img {
   background-image: url("../../../images/create-and-share.jpg");
+  background-size: cover;
+}
+
+.section-stories-img {
+  background-image: url("../../../images/beautiful-stories.jpg");
+  background-size: cover;
+}
+
+.section-everyone-img {
+  background-image: url("../../../images/designed-for-everyone.jpg");
+  background-size: cover;
 }
