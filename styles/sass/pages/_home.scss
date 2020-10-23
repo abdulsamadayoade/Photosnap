@@ -3,7 +3,14 @@
     height: 590px;
     display: flex;
     align-items: center;
-    background-color: $black;
+
+    &_black {
+        background-color: $black;
+    }
+
+    &_white {
+        background-color: $white;
+    }
 
     &-box {
         width: 100%;
@@ -20,5 +27,19 @@
 
 .section_image {
     width: 57%;
+}
+
+.section-create-img {
     background-image: url("../../../images/create-and-share.jpg");
+    background-size: cover;
+}
+
+.section-stories-img {
+    background-image: url("../../../images/beautiful-stories.jpg");
+    background-size: cover;
+}
+
+.section-everyone-img {
+    background-image: url("../../../images/designed-for-everyone.jpg");
+    background-size: cover;
 }

@@ -57,3 +57,12 @@
         background-image: url("../../../images/arrow-white.svg");
     }
 }
+
+.invite-link-black {
+    color: $black;
+    max-width: 200px;
+
+    &::after {
+        background-image: url("../../../images/arrow-black.svg");  
+    }
+}
