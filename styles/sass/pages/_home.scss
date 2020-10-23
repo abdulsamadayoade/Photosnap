@@ -130,3 +130,35 @@
         background-size: cover;
     }
 }
+
+// FEATURES SECTION
+
+.features {
+    padding: 100px 0;
+
+    .feature {
+        text-align: center;
+        padding: 0 10px;
+
+        &-image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            margin-bottom: 40px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        &-heading {
+            margin-bottom: 18px;
+        }
+
+        &-text {
+            line-height: $line-height-M;
+            color: $opaque-black;
+        }
+    }
+}

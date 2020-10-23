@@ -338,3 +338,39 @@ a {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../../images/architecturals.jpg");
   background-size: cover;
 }
+
+.features {
+  padding: 100px 0;
+}
+
+.features .feature {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.features .feature-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.features .feature-image img {
+  max-width: 100%;
+}
+
+.features .feature-heading {
+  margin-bottom: 18px;
+}
+
+.features .feature-text {
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
