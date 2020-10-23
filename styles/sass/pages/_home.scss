@@ -1,3 +1,5 @@
+// THE SECTIONS
+
 .section_text {
     width: 43%;
     height: 590px;
@@ -42,4 +44,89 @@
 .section-everyone-img {
     background-image: url("../../../images/designed-for-everyone.jpg");
     background-size: cover;
+}
+
+// THE GALLERY SECTION
+
+.image-container {
+    display: block;
+    height: 500px;
+    width: 25%;
+    position: relative;
+    transition: all .3s;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background-image: linear-gradient(27deg, #FFC593 0%, #BC7198 49%, #5A77FF 95%);
+        opacity: 0;
+        transition: opacity .3s;
+    }
+
+    &:hover {
+        transform: translateY(-25px);
+    }
+
+    &:hover::after {
+        opacity: 1;
+    }
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 35px 0;
+
+    &-box {
+        color: $white;
+        width: 80%;
+        max-width: 100%;
+
+        p {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+    }
+
+    &-textbox {
+        border-bottom: 1px solid rgba(255,255,255,.25);
+        padding: 10px 5px 18px;
+    }
+
+    &-link {
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 5px 5px;
+
+        h6 {
+            text-transform: uppercase;
+            font-family: $ff-bold;
+            font-size: $font-size-h4;
+            letter-spacing: 2px;
+        }
+    }
+
+    &-1 {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.31), rgba(0,0,0,0.7)), url("../../../images/mountains.jpg");
+        background-size: cover;
+    }
+    &-2 {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.31), rgba(0,0,0,0.7)), url("../../../images/cityscapes.jpg");
+        background-size: cover;
+    }
+    &-3 {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.31), rgba(0,0,0,0.7)), url("../../../images/18-days-voyage.jpg");
+        background-size: cover;
+    }
+    &-4 {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.31), rgba(0,0,0,0.7)), url("../../../images/architecturals.jpg");
+        background-size: cover;
+    }
 }

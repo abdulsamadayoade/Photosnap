@@ -37,7 +37,13 @@ h1.white {
     color: $white;
 }
 
-p {
+h3 {
+    font-family: $ff-bold;
+    font-size: $font-size-h3;
+    line-height: $line-height-M;
+}
+
+p.opaque-grey {
     color: $opaque-grey;
 }
 
