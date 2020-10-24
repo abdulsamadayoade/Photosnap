@@ -22,3 +22,7 @@ a {
 .row {
     @include flex;
 }
+
+.grid {
+    @include grid;
+}

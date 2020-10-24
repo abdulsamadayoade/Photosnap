@@ -2,6 +2,15 @@
     display: flex;
 }
 
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 @mixin bg-cover {
     background-size: cover;
+}
+
+@mixin bg-center {
+    background-position: center;
 }
