@@ -112,7 +112,7 @@ p.opaque-black {
 
 footer {
   background-color: #000000;
-  padding: 60px 0;
+  padding: 60px 0 40px;
 }
 
 footer .footer-row {
@@ -263,6 +263,24 @@ footer .footer_copyright {
           justify-content: space-between;
   height: 100%;
   margin-bottom: 50px;
+}
+
+footer .attribute {
+  text-align: center;
+  padding-top: 70px;
+}
+
+footer .attribute a {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  padding-bottom: .3px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+footer .attribute a:hover {
+  color: rgba(223, 223, 223, 0.6);
+  border-color: rgba(223, 223, 223, 0.6);
 }
 
 header {
