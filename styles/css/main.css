@@ -1,11 +1,11 @@
 @font-face {
   font-family: "DM Sans Regular";
-  src: url("../../textfont/DMSans-Regular.ttf") format("truetype");
+  src: url("../../../textfont/DMSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "DM Sans Bold";
-  src: url("../../textfont/DMSans-Bold.ttf") format("truetype");
+  src: url("../../../textfont/DMSans-Bold.ttf") format("truetype");
 }
 
 h1 {
@@ -32,14 +32,17 @@ p.opaque-black {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.btn {
-  display: inline-block;
-  border: none;
-  outline: none;
+.btn, .invite-link {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "DM Sans Bold", sans-serif;
   letter-spacing: 2px;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
   padding: 11px 25px;
 }
 
@@ -62,10 +65,6 @@ p.opaque-black {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: "DM Sans Bold", sans-serif;
-  letter-spacing: 2px;
   width: 100%;
   max-width: 165px;
   position: relative;
@@ -98,7 +97,7 @@ p.opaque-black {
 }
 
 .invite-link-white::after {
-  background-image: url("../../images/arrow-white.svg");
+  background-image: url("../../../images/arrow-white.svg");
 }
 
 .invite-link-black {
@@ -107,7 +106,7 @@ p.opaque-black {
 }
 
 .invite-link-black::after {
-  background-image: url("../../images/arrow-black.svg");
+  background-image: url("../../../images/arrow-black.svg");
 }
 
 footer {
@@ -148,7 +147,7 @@ footer .footer_logo-box .social {
 }
 
 footer .footer_logo-box .social li:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 13px;
 }
 
 footer .footer_logo-box .social a {
@@ -160,48 +159,48 @@ footer .footer_logo-box .social a {
 }
 
 footer .footer_logo-box .social a.facebook {
-  background-image: url("../../images/white-FB.svg");
+  background-image: url("../../../images/white-FB.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.facebook:hover {
-  background-image: url("../../images/facebook.svg");
+  background-image: url("../../../images/facebook.svg");
 }
 
 footer .footer_logo-box .social a.youtube {
-  background-image: url("../../images/white-YT.svg");
+  background-image: url("../../../images/white-YT.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.youtube:hover {
-  background-image: url("../../images/youtube.svg");
+  background-image: url("../../../images/youtube.svg");
 }
 
 footer .footer_logo-box .social a.twitter {
-  background-image: url("../../images/white-Tw.svg");
+  background-image: url("../../../images/white-Tw.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.twitter:hover {
-  background-image: url("../../images/twitter.svg");
+  background-image: url("../../../images/twitter.svg");
 }
 
 footer .footer_logo-box .social a.pinterest {
-  background-image: url("../../images/white-Pin.svg");
+  background-image: url("../../../images/white-Pin.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.pinterest:hover {
-  background-image: url("../../images/pinterest.svg");
+  background-image: url("../../../images/pinterest.svg");
 }
 
 footer .footer_logo-box .social a.instagram {
-  background-image: url("../../images/white-Insta.svg");
+  background-image: url("../../../images/white-Insta.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.instagram:hover {
-  background-image: url("../../images/instagram.svg");
+  background-image: url("../../../images/instagram.svg");
 }
 
 footer .footer_logo-box .social img {
@@ -236,13 +235,7 @@ footer .footer_menu {
 }
 
 footer .footer_menu-link {
-  text-transform: uppercase;
-  font-family: "DM Sans Bold", sans-serif;
-  font-size: 12px;
-  letter-spacing: 2px;
   color: #ffffff;
-  -webkit-transition: color .5s ease;
-  transition: color .5s ease;
 }
 
 footer .footer_menu-link:hover {
@@ -307,6 +300,15 @@ header {
   height: 70px;
 }
 
+footer .footer_menu-link, .nav_list-link {
+  text-transform: uppercase;
+  font-family: "DM Sans Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  -webkit-transition: color .5s ease;
+  transition: color .5s ease;
+}
+
 .nav_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,13 +320,7 @@ header {
 }
 
 .nav_list-link {
-  text-transform: uppercase;
-  font-family: "DM Sans Bold", sans-serif;
-  font-size: 12px;
-  letter-spacing: 2px;
   color: #000000;
-  -webkit-transition: color .5s ease;
-  transition: color .5s ease;
 }
 
 .nav_list-link:hover {
@@ -395,17 +391,17 @@ a {
 }
 
 .section-create-img {
-  background-image: url("../../images/create-and-share.jpg");
+  background-image: url("../../../images/create-and-share.jpg");
   background-size: cover;
 }
 
 .section-stories-img {
-  background-image: url("../../images/beautiful-stories.jpg");
+  background-image: url("../../../images/beautiful-stories.jpg");
   background-size: cover;
 }
 
 .section-everyone-img {
-  background-image: url("../../images/designed-for-everyone.jpg");
+  background-image: url("../../../images/designed-for-everyone.jpg");
   background-size: cover;
 }
 
@@ -489,26 +485,26 @@ a {
 }
 
 .image-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../images/mountains.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../images/mountains.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../../images/mountains.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../../images/mountains.jpg");
   background-size: cover;
 }
 
 .image-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../images/cityscapes.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../images/cityscapes.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../../images/cityscapes.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../../images/cityscapes.jpg");
   background-size: cover;
 }
 
 .image-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../images/18-days-voyage.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../images/18-days-voyage.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../../images/18-days-voyage.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../../images/18-days-voyage.jpg");
   background-size: cover;
 }
 
 .image-4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../images/architecturals.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../images/architecturals.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.7))), url("../../../images/architecturals.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.7)), url("../../../images/architecturals.jpg");
   background-size: cover;
 }
 
