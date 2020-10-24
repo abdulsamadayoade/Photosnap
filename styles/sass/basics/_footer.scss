@@ -1,6 +1,6 @@
 footer {
     background-color: $black;
-    padding: 60px 0;
+    padding: 60px 0 40px;
 
     .footer-row {
         display: flex;
@@ -117,5 +117,22 @@ footer {
         justify-content: space-between;
         height: 100%;
         margin-bottom: 50px;
+    }
+
+    .attribute {
+        text-align: center;
+        padding-top: 70px;
+
+        a {
+            border-bottom: 1px solid $white;
+            color: $white;
+            padding-bottom: .3px;
+            transition: all .5s ease;
+
+            &:hover {
+                color: $opaque-grey;
+                border-color: $opaque-grey;
+            }
+        }
     }
 }
