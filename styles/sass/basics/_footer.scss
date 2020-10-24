@@ -1,0 +1,121 @@
+footer {
+    background-color: $black;
+    padding: 60px 0;
+
+    .footer-row {
+        display: flex;
+        align-items: flex-start;
+        height: 140px;
+    }
+
+    .footer_logo-box {
+        padding-right: 100px;
+        height: 100%;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .social {
+            display: flex;
+
+            li:not(:last-child) {
+                margin-right: 10px;
+            }
+
+            a {
+                display: block;
+                width: 20px;
+                height: 20px;
+                transition: all .4s;
+            }
+
+            a.facebook {
+                background-image: url("../../../images/white-FB.svg");
+                background-size: cover;
+
+                &:hover {
+                    background-image: url("../../../images/facebook.svg");
+                }
+            }
+
+            a.youtube {
+                background-image: url("../../../images/white-YT.svg");
+                background-size: cover;
+
+                &:hover {
+                    background-image: url("../../../images/youtube.svg");
+                }
+            }
+
+            a.twitter {
+                background-image: url("../../../images/white-Tw.svg");
+                background-size: cover;
+
+                &:hover {
+                    background-image: url("../../../images/twitter.svg");
+                }
+            }
+
+            a.pinterest {
+                background-image: url("../../../images/white-Pin.svg");
+                background-size: cover;
+
+                &:hover {
+                    background-image: url("../../../images/pinterest.svg");
+                }
+            }
+
+            a.instagram {
+                background-image: url("../../../images/white-Insta.svg");
+                background-size: cover;
+
+                &:hover {
+                    background-image: url("../../../images/instagram.svg");
+                }
+            }
+
+            img {
+                transition: transform .4s ease;
+
+                &:hover {
+                    transform: scale(1.15);
+                }
+            }
+        }
+    }
+
+    .footer_menu-box {
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    
+        &-link {
+            text-transform: uppercase;
+            font-family: $ff-bold;
+            font-size: $font-size-h4;
+            letter-spacing: 2px;
+            color: $white;
+            transition: color .5s ease;
+    
+            &:hover {
+                color: $opaque-grey;
+            }
+        }
+    }
+
+    .footer_copyright {
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+}
