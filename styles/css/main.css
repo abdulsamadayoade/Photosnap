@@ -284,7 +284,7 @@ header {
   width: 100%;
   max-width: 1150px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 25px;
 }
 
 .navbar {
@@ -355,6 +355,13 @@ a {
   display: flex;
 }
 
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
 .section_text {
   width: 43%;
   height: 590px;
@@ -408,7 +415,6 @@ a {
 .image-container {
   display: block;
   height: 500px;
-  width: 25%;
   position: relative;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -542,4 +548,54 @@ a {
 .features .feature-text {
   line-height: 25px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1023px) {
+  h1 {
+    font-size: 36px;
+  }
+  .section_text {
+    width: 65%;
+  }
+  .stories .section_text-box {
+    max-width: 100%;
+  }
+  .everyone .section_text-box {
+    max-width: 100%;
+  }
+  .section_image {
+    width: 35%;
+  }
+  .section-create-img {
+    background-image: url("../../images/create-and-share-tablet.jpg");
+    background-position: center;
+  }
+  .section-stories-img {
+    background-image: url("../../images/beautiful-stories-tablet.jpg");
+    background-position: center;
+  }
+  .section-everyone-img {
+    background-image: url("../../images/designed-for-everyone-tablet.jpg");
+    background-position: center;
+  }
+  .grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .features .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features p {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav_list-item {
+    margin-right: 25px;
+  }
 }
