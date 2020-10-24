@@ -3,7 +3,7 @@
 .section_text {
     width: 43%;
     height: 590px;
-    display: flex;
+    @include flex;
     align-items: center;
 
     &_black {
@@ -33,17 +33,17 @@
 
 .section-create-img {
     background-image: url("../../../images/create-and-share.jpg");
-    background-size: cover;
+    @include bg-cover;
 }
 
 .section-stories-img {
     background-image: url("../../../images/beautiful-stories.jpg");
-    background-size: cover;
+    @include bg-cover;
 }
 
 .section-everyone-img {
     background-image: url("../../../images/designed-for-everyone.jpg");
-    background-size: cover;
+    @include bg-cover;
 }
 
 // THE GALLERY SECTION
@@ -79,7 +79,7 @@
 .image {
     height: 100%;
     width: 100%;
-    display: flex;
+    @include flex;
     align-items: flex-end;
     justify-content: center;
     padding: 35px 0;
@@ -101,7 +101,7 @@
     }
 
     &-link {
-        display: flex;
+        @include flex;
         justify-content: space-between;
         padding: 18px 5px 5px;
 
@@ -115,19 +115,19 @@
 
     &-1 {
         background-image: linear-gradient(to bottom, rgba(0,0,0,0.31), rgba(0,0,0,0.7)), url("../../../images/mountains.jpg");
-        background-size: cover;
+        @include bg-cover;
     }
     &-2 {
         background-image: linear-gradient(to bottom, rgba(0,0,0,0.31), rgba(0,0,0,0.7)), url("../../../images/cityscapes.jpg");
-        background-size: cover;
+        @include bg-cover;
     }
     &-3 {
         background-image: linear-gradient(to bottom, rgba(0,0,0,0.31), rgba(0,0,0,0.7)), url("../../../images/18-days-voyage.jpg");
-        background-size: cover;
+        @include bg-cover;
     }
     &-4 {
         background-image: linear-gradient(to bottom, rgba(0,0,0,0.31), rgba(0,0,0,0.7)), url("../../../images/architecturals.jpg");
-        background-size: cover;
+        @include bg-cover;
     }
 }
 
@@ -141,7 +141,7 @@
         padding: 0 10px;
 
         &-image {
-            display: flex;
+            @include flex;
             align-items: center;
             justify-content: center;
             height: 100px;

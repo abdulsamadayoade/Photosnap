@@ -20,5 +20,5 @@ a {
 }
 
 .row {
-    display: flex;
+    @include flex;
 }

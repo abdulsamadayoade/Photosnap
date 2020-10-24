@@ -10,26 +10,30 @@ header {
 }
 
 .navbar {
-    display: flex;
+    @include flex;
     align-items: center;
     justify-content: space-between;
     height: 70px;
 }
 
+%navlink-shared {
+    text-transform: uppercase;
+    font-family: $ff-bold;
+    font-size: $font-size-h4;
+    letter-spacing: 2px;
+    transition: color .5s ease;
+}
+
 .nav_list {
-    display: flex;
+    @include flex;
 
     &-item {
         margin-right: 45px;
     }
 
     &-link {
-        text-transform: uppercase;
-        font-family: $ff-bold;
-        font-size: $font-size-h4;
-        letter-spacing: 2px;
+        @extend %navlink-shared;
         color: $black;
-        transition: color .5s ease;
 
         &:hover {
             color: $light-grey;

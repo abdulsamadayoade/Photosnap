@@ -3,7 +3,7 @@ footer {
     padding: 60px 0 40px;
 
     .footer-row {
-        display: flex;
+        @include flex;
         align-items: flex-start;
         height: 140px;
     }
@@ -12,15 +12,15 @@ footer {
         padding-right: 100px;
         height: 100%;
         margin-bottom: 50px;
-        display: flex;
+        @include flex;
         flex-direction: column;
         justify-content: space-between;
 
         .social {
-            display: flex;
+            @include flex;
 
             li:not(:last-child) {
-                margin-right: 10px;
+                margin-right: 13px;
             }
 
             a {
@@ -32,7 +32,7 @@ footer {
 
             a.facebook {
                 background-image: url("../../../images/white-FB.svg");
-                background-size: cover;
+                @include bg-cover;
 
                 &:hover {
                     background-image: url("../../../images/facebook.svg");
@@ -41,7 +41,7 @@ footer {
 
             a.youtube {
                 background-image: url("../../../images/white-YT.svg");
-                background-size: cover;
+                @include bg-cover;
 
                 &:hover {
                     background-image: url("../../../images/youtube.svg");
@@ -50,7 +50,7 @@ footer {
 
             a.twitter {
                 background-image: url("../../../images/white-Tw.svg");
-                background-size: cover;
+                @include bg-cover;
 
                 &:hover {
                     background-image: url("../../../images/twitter.svg");
@@ -59,7 +59,7 @@ footer {
 
             a.pinterest {
                 background-image: url("../../../images/white-Pin.svg");
-                background-size: cover;
+                @include bg-cover;
 
                 &:hover {
                     background-image: url("../../../images/pinterest.svg");
@@ -68,7 +68,7 @@ footer {
 
             a.instagram {
                 background-image: url("../../../images/white-Insta.svg");
-                background-size: cover;
+                @include bg-cover;
 
                 &:hover {
                     background-image: url("../../../images/instagram.svg");
@@ -91,18 +91,14 @@ footer {
     }
 
     .footer_menu {
-        display: flex;
+        @include flex;
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
     
         &-link {
-            text-transform: uppercase;
-            font-family: $ff-bold;
-            font-size: $font-size-h4;
-            letter-spacing: 2px;
+            @extend %navlink-shared;
             color: $white;
-            transition: color .5s ease;
     
             &:hover {
                 color: $opaque-grey;
@@ -112,7 +108,7 @@ footer {
 
     .footer_copyright {
         margin-left: auto;
-        display: flex;
+        @include flex;
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
