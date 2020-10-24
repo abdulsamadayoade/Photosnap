@@ -1,12 +1,16 @@
-.btn {
-    display: inline-block;
-    border: none;
-    outline: none;
+%btn-shared {
     text-transform: uppercase;
     font-size: $font-size-h4;
     font-family: $ff-bold;
     letter-spacing: $letter-spacing-S;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    outline: none;
     padding: 11px 25px;
+    @extend %btn-shared;
 }
 
 .btn-black {
@@ -23,13 +27,10 @@
 .invite-link {
     display: inline-flex;
     align-items: center;
-    text-transform: uppercase;
-    font-size: $font-size-h4;
-    font-family: $ff-bold;
-    letter-spacing: $letter-spacing-S;
     width: 100%;
     max-width: 165px;
     position: relative;
+    @extend %btn-shared;
 
     &::after {
         content: '';
