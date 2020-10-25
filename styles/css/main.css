@@ -306,6 +306,10 @@ footer .footer_menu-link, .nav_list-link {
   color: #dfdfdf;
 }
 
+.menu_toggle {
+  display: none;
+}
+
 *,
 *::before,
 *::after {
@@ -544,6 +548,133 @@ a {
   }
   .section_image {
     width: 35%;
+  }
+  .section-create-img {
+    background-image: url("../../images/create-and-share-tablet.jpg");
+    background-position: center;
+  }
+  .section-stories-img {
+    background-image: url("../../images/beautiful-stories-tablet.jpg");
+    background-position: center;
+  }
+  .section-everyone-img {
+    background-image: url("../../images/designed-for-everyone-tablet.jpg");
+    background-position: center;
+  }
+  .grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .features .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features p {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav_list-item {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu_toggle {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  .menu_toggle .open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: opacity 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  }
+  .menu_toggle .close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%) rotate(90deg);
+            transform: translate(-50%, -50%) rotate(90deg);
+    -webkit-transition: opacity 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  }
+  .open.active {
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%) rotate(90deg);
+            transform: translate(-50%, -50%) rotate(90deg);
+  }
+  .close.active {
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%) rotate(0);
+            transform: translate(-50%, -50%) rotate(0);
+  }
+  .logo {
+    position: relative;
+    z-index: 10;
+  }
+  .nav_list {
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    padding: 80px 40px 20px 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transform: translateY(-40vh);
+            transform: translateY(-40vh);
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+  }
+  .nav_list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .nav_list.active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .btn.btn-black {
+    display: none;
+  }
+  h1 {
+    font-size: 31px;
+  }
+  .section_text {
+    width: 65%;
+  }
+  .section_text-box p {
+    margin: 21px 0 35px;
   }
   .section-create-img {
     background-image: url("../../images/create-and-share-tablet.jpg");
