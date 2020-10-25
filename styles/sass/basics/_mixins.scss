@@ -14,3 +14,17 @@
 @mixin bg-center {
     background-position: center;
 }
+
+@mixin menu-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@mixin flex-column {
+    flex-direction: column;
+}
+
+@mixin column-reverse {
+    flex-direction: column-reverse;
+}

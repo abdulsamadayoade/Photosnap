@@ -5,12 +5,11 @@ footer {
     .footer-row {
         @include flex;
         align-items: flex-start;
-        height: 140px;
     }
 
     .footer_logo-box {
         padding-right: 100px;
-        height: 100%;
+        height: 140px;
         @include flex;
         flex-direction: column;
         justify-content: space-between;
@@ -85,14 +84,14 @@ footer {
     }
 
     .footer_menu-box {
-        height: 100%;
+        height: 140px;
     }
 
     .footer_menu {
         @include flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 100%;
+        height: 140px;
     
         &-link {
             @extend %navlink-shared;

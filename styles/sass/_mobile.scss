@@ -12,18 +12,14 @@
         height: 20px;
 
         .open {
-            position: absolute;
-            top: 50%;
-            left: 50%;
+            @include menu-icons;
             opacity: 1;
             transform: translate(-50%, -50%);
             transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
         }
 
         .close {
-            position: absolute;
-            top: 50%;
-            left: 50%;
+            @include menu-icons;
             opacity: 0;
             transform: translate(-50%, -50%) rotate(90deg);
             transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
@@ -73,50 +69,104 @@
     }
 
     h1 {
-        font-size: 31px;
+        font-size: 32px;
     }
 
-    .section_text {
-        width: 65%;
+    footer {
 
-        &-box p {
-            margin: 21px 0 35px;
-        }
-    }
-
-    .section-create-img {
-        background-image: url("../../images/create-and-share-tablet.jpg");
-        @include bg-center;
-    }
-
-    .section-stories-img {
-        background-image: url("../../images/beautiful-stories-tablet.jpg");
-        @include bg-center;
-    }
-    
-    .section-everyone-img {
-        background-image: url("../../images/designed-for-everyone-tablet.jpg");
-        @include bg-center;
-    }
-
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .features {
-        .row {
+        .footer-row {
             flex-direction: column;
-        }
+            align-items: center;
 
-        p {
-            max-width: 500px;
-            margin: 0 auto;
+            .footer_logo-box {
+                padding-right: 0;
+                justify-content: flex-start;
+
+                .social {
+                    margin-top: 40px;
+                }
+            }
+
+            .footer_menu-box {
+                margin-bottom: 100px;
+            }
+
+            .footer_copyright {
+                margin-left: 0;
+                align-items: center;
+
+                a {
+                    margin-bottom: 30px;
+                }
+            }
         }
     }
 }
 
-@media screen and (max-width: 800px) {
-    .nav_list-item {
-        margin-right: 25px;
+@media screen and (max-width: 600px) {
+    .section_text {
+        &-box {
+            padding: 0 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    
+    .section_text {
+        &-box {
+            p {
+                margin: 20px 0;
+            }
+        }
+    }
+    
+    
+    .create {
+        .row {
+            @include column-reverse;
+        }
+    }
+
+    .stories {
+        .row {
+        @include flex-column;
+    }
+}
+
+    .everyone {
+        .row {
+            @include column-reverse;
+        }
+    }
+
+    .section_text {
+        width: 100%;
+        height: 350px;
+    }
+
+    .section_image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .section-create-img {
+        background-image: url("../../images/create-and-share-mobile.jpg");
+    }
+
+    .section-stories-img {
+        background-image: url("../../images/beautiful-stories-mobile.jpg");
+    }
+    
+    .section-everyone-img {
+        background-image: url("../../images/designed-for-everyone-mobile.jpg");
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
     }
 }
