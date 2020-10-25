@@ -1,0 +1,122 @@
+// MEDIA QUERIES FOR MOBILE
+
+@media screen and (max-width: 768px) {
+    .menu_toggle {
+        display: inline-block;
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        width: 20px;
+        height: 20px;
+
+        .open {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            opacity: 1;
+            transform: translate(-50%, -50%);
+            transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+        }
+
+        .close {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            opacity: 0;
+            transform: translate(-50%, -50%) rotate(90deg);
+            transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+        }
+    }
+
+    .open.active {
+        opacity: 0;
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+
+    .close.active {
+        opacity: 1;
+        transform: translate(-50%, -50%) rotate(0);
+    }
+
+    .logo {
+        position: relative;
+        z-index: 10;
+    }
+
+    .nav_list {
+        background-color: $white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40vh;
+        padding: 80px 40px 20px 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(-40vh);
+        transition: transform .5s;
+
+        &-item:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+
+    .nav_list.active {
+        transform: translateY(0);
+    }
+
+    .btn.btn-black {
+        display: none;
+    }
+
+    h1 {
+        font-size: 31px;
+    }
+
+    .section_text {
+        width: 65%;
+
+        &-box p {
+            margin: 21px 0 35px;
+        }
+    }
+
+    .section-create-img {
+        background-image: url("../../images/create-and-share-tablet.jpg");
+        @include bg-center;
+    }
+
+    .section-stories-img {
+        background-image: url("../../images/beautiful-stories-tablet.jpg");
+        @include bg-center;
+    }
+    
+    .section-everyone-img {
+        background-image: url("../../images/designed-for-everyone-tablet.jpg");
+        @include bg-center;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features {
+        .row {
+            flex-direction: column;
+        }
+
+        p {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav_list-item {
+        margin-right: 25px;
+    }
+}
