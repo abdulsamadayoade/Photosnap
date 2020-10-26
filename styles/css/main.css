@@ -627,12 +627,17 @@ a {
 .hero {
   background-image: url("../../../images/moon-of-appalacia.jpg");
   background-size: cover;
-  height: 100vh;
   padding: 30px 0;
 }
 
 .hero .section_text {
-  width: 35%;
+  width: 100%;
+}
+
+.hero .section_text-box {
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
 }
 
 .hero h1 {
@@ -656,6 +661,10 @@ a {
 
 .hero p:last-of-type {
   margin-bottom: 40px;
+}
+
+.hero-mobile {
+  display: none;
 }
 
 @media screen and (max-width: 1023px) {
@@ -699,6 +708,9 @@ a {
   .features p {
     max-width: 500px;
     margin: 0 auto;
+  }
+  .hero {
+    background-image: url("../../images/moon-of-appalacia-tablet.jpg");
   }
 }
 
@@ -828,6 +840,88 @@ a {
   }
   footer .footer-row .footer_copyright a {
     margin-bottom: 25px;
+  }
+  .hero {
+    background-image: url("../../images/moon-of-appalacia-mobile.jpg");
+    height: 320px;
+  }
+  .hero .container {
+    display: none;
+  }
+  .hero-mobile {
+    display: block;
+    background-color: #000000;
+  }
+  .hero-mobile .section_text {
+    height: 450px;
+    padding: 17px 0 25px;
+  }
+  .hero-mobile .section_text p {
+    margin: 23px 0;
+  }
+  .image-1 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/mountains-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/mountains-m.jpg");
+  }
+  .image-2 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/cityscapes-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/cityscapes-m.jpg");
+  }
+  .image-3 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/18-days-voyage-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/18-days-voyage-m.jpg");
+  }
+  .image-4 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/architecturals-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/architecturals-m.jpg");
+  }
+  .image-5 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/world-tour-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/world-tour-m.jpg");
+  }
+  .image-6 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/unforeseen-corners-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/unforeseen-corners-m.jpg");
+  }
+  .image-7 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/king-on-africa-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/king-on-africa-m.jpg");
+  }
+  .image-8 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/trip-to-nowhere-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/trip-to-nowhere-m.jpg");
+  }
+  .image-9 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/rage-of-the-sea-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/rage-of-the-sea-m.jpg");
+  }
+  .image-10 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/running-free-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/running-free-m.jpg");
+  }
+  .image-11 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/behind-the-waves-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/behind-the-waves-m.jpg");
+  }
+  .image-12 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/calm-waters-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/calm-waters-m.jpg");
+  }
+  .image-13 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/milky-way-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/milky-way-m.jpg");
+  }
+  .image-14 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/dark-forest-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/dark-forest-m.jpg");
+  }
+  .image-15 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/somwarpet-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/somwarpet-m.jpg");
+  }
+  .image-16 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/land-of-dreams-m.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/land-of-dreams-m.jpg");
   }
 }
 
