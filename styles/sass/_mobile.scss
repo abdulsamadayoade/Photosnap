@@ -103,6 +103,83 @@
             }
         }
     }
+
+    .hero {
+        background-image: url("../../images/moon-of-appalacia-mobile.jpg");
+        height: 320px;
+
+        .container {
+            display: none;
+        }
+    }
+
+    .hero-mobile {
+        display: block;
+        background-color: $black;
+
+        .section_text {
+            height: 450px;
+            padding: 17px 0 25px;
+
+            p {
+                margin: 23px 0;
+            }
+        }
+    }
+
+    .image {
+        &-1 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/mountains-m.jpg");
+        }
+        &-2 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/cityscapes-m.jpg");
+        }
+        &-3 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/18-days-voyage-m.jpg");
+        }
+        &-4 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/architecturals-m.jpg");
+        }
+        &-5 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/world-tour-m.jpg");
+        }
+    
+        &-6 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/unforeseen-corners-m.jpg");
+        }
+        &-7 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/king-on-africa-m.jpg");
+        }
+        &-8 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/trip-to-nowhere-m.jpg");
+        }
+        &-9 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/rage-of-the-sea-m.jpg");
+        }
+        &-10 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/running-free-m.jpg");
+        }
+    
+        &-11 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/behind-the-waves-m.jpg");
+        }
+        &-12 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/calm-waters-m.jpg");
+        }
+        &-13 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/milky-way-m.jpg");
+        }
+        &-14 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/dark-forest-m.jpg");
+        }
+        &-15 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/somwarpet-m.jpg");
+        }
+    
+        &-16 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../../images/land-of-dreams-m.jpg");
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
