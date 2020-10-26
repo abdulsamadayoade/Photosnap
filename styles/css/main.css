@@ -2,6 +2,10 @@
   padding: 0 !important;
 }
 
+.mb-s {
+  margin-bottom: 5px;
+}
+
 @font-face {
   font-family: "DM Sans Regular";
   src: url("../../../textfont/DMSans-Regular.ttf") format("truetype");
