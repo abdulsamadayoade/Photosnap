@@ -1,3 +1,7 @@
+.remove-padding {
+  padding: 0 !important;
+}
+
 @font-face {
   font-family: "DM Sans Regular";
   src: url("../../../textfont/DMSans-Regular.ttf") format("truetype");
@@ -22,6 +26,13 @@ h3 {
   font-family: "DM Sans Bold", sans-serif;
   font-size: 18px;
   line-height: 25px;
+}
+
+h5 {
+  font-family: "DM Sans Bold", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 p.opaque-grey {
@@ -539,6 +550,40 @@ a {
 .features .feature-text {
   line-height: 25px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.hero {
+  background-image: url("../../../images/moon-of-appalacia.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 30px 0;
+}
+
+.hero .section_text {
+  width: 35%;
+}
+
+.hero h1 {
+  width: 400px;
+  max-width: 100%;
+}
+
+.hero h5 {
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.hero p {
+  margin: 23px 0;
+}
+
+.hero p span {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.hero p:last-of-type {
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1023px) {
