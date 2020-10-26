@@ -1,0 +1,35 @@
+// HERO
+
+.hero {
+    background-image: url("../../../images/moon-of-appalacia.jpg");
+    @include bg-cover;
+    height: 100vh;
+    padding: 30px 0;
+
+    .section_text {
+        width: 35%;
+    }
+
+    h1 {
+        width: 400px;
+        max-width: 100%;
+    }
+
+    h5 {
+        color: $white;
+        margin-bottom: 14px;
+    }
+
+    p {
+        margin: 23px 0;
+
+        span {
+            color: $white;
+            font-size: 13px;
+        }
+    }
+
+    p:last-of-type {
+        margin-bottom: 40px;
+    }
+}

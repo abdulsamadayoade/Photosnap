@@ -19,6 +19,7 @@ $font-size-h1: 40px;
 $font-size-h2: 24px;
 $font-size-h3: 18px;
 $font-size-h4: 12px;
+$font-size-h5: 10px;
 
 $letter-spacing-L: 4.17px;
 $letter-spacing-S: 2px; 
@@ -29,7 +30,7 @@ $line-height-S: 16px;
 
 h1 {
     font-size: $font-size-h1;
-    text-transform: uppercase;
+    @include uppercase;
     letter-spacing: $letter-spacing-L;
 }
 
@@ -41,6 +42,13 @@ h3 {
     font-family: $ff-bold;
     font-size: $font-size-h3;
     line-height: $line-height-M;
+}
+
+h5 {
+    font-family: $ff-bold;
+    font-size: $font-size-h4;
+    @include uppercase;
+    letter-spacing: $letter-spacing-S;
 }
 
 p.opaque-grey {

@@ -28,3 +28,7 @@
 @mixin column-reverse {
     flex-direction: column-reverse;
 }
+
+@mixin uppercase {
+    text-transform: uppercase;
+}
