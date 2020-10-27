@@ -1,0 +1,10 @@
+.features {
+    .section_text {
+        height: 480px;
+    }
+}
+
+.section-features-img {
+    background-image: url("../../../images/features-bg.jpg");
+    @include bg-cover;
+}
