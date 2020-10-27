@@ -1,3 +1,4 @@
+// FEATURES GRID
 .features {
     .section_text {
         height: 480px;
@@ -7,4 +8,22 @@
 .section-features-img {
     background-image: url("../../../images/features-bg.jpg");
     @include bg-cover;
+}
+
+// BETA SECTION
+
+.beta {
+    background-image: url("../../../images/bg-beta.jpg");
+    @include bg-cover;
+    padding: 70px 0;
+    height: 300px;
+
+    h1 {
+        width: 500px;
+        max-width: 100%;
+    }
+
+    a {
+        display: inline-flex;
+    }
 }
