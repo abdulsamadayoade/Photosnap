@@ -698,8 +698,9 @@ a {
 }
 
 .beta h1 {
-  width: 500px;
+  width: 450px;
   max-width: 100%;
+  padding-right: 10px;
 }
 
 .beta a {
@@ -708,7 +709,7 @@ a {
   display: inline-flex;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   h1 {
     font-size: 36px;
   }
@@ -752,6 +753,12 @@ a {
   }
   .hero {
     background-image: url("../../images/moon-of-appalacia-tablet.jpg");
+  }
+  .section-features-img {
+    background-image: url("../../images/features-bg-tablet.jpg");
+  }
+  .beta {
+    background-image: url("../../images/bg-beta-tablet.jpg");
   }
 }
 
@@ -846,7 +853,7 @@ a {
     display: none;
   }
   h1 {
-    font-size: 32px;
+    font-size: 30px;
   }
   footer .footer-row {
     -webkit-box-orient: vertical;
@@ -979,19 +986,13 @@ a {
   .section_text-box p {
     margin: 20px 0;
   }
-  .create .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  .stories .row {
+  .stories .row, .beta .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .everyone .row {
+  .everyone .row, .features .row, .create .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -1014,8 +1015,20 @@ a {
   .section-everyone-img {
     background-image: url("../../images/designed-for-everyone-mobile.jpg");
   }
+  .section-features-img {
+    background-image: url("../../images/features-bg-mobile.jpg");
+  }
+  .beta {
+    background-image: url("../../images/bg-beta-mobile.jpg");
+  }
   .grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+  .features .section_text {
+    height: 300px;
+  }
+  .beta a {
+    margin-top: 25px;
   }
 }
