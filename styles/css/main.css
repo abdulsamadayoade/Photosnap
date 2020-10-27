@@ -10,6 +10,12 @@
   margin-bottom: 60px;
 }
 
+.space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @font-face {
   font-family: "DM Sans Regular";
   src: url("../../../textfont/DMSans-Regular.ttf") format("truetype");
@@ -682,6 +688,24 @@ a {
 .section-features-img {
   background-image: url("../../../images/features-bg.jpg");
   background-size: cover;
+}
+
+.beta {
+  background-image: url("../../../images/bg-beta.jpg");
+  background-size: cover;
+  padding: 70px 0;
+  height: 300px;
+}
+
+.beta h1 {
+  width: 500px;
+  max-width: 100%;
+}
+
+.beta a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 @media screen and (max-width: 1023px) {
