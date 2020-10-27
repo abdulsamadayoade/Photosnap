@@ -69,7 +69,7 @@
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     footer {
@@ -203,21 +203,14 @@
             }
         }
     }
-    
-    
-    .create {
-        .row {
-            @include column-reverse;
-        }
-    }
 
-    .stories {
+    .stories, .beta {
         .row {
         @include flex-column;
     }
 }
 
-    .everyone {
+    .everyone, .features, .create {
         .row {
             @include column-reverse;
         }
@@ -245,7 +238,25 @@
         background-image: url("../../images/designed-for-everyone-mobile.jpg");
     }
 
+    .section-features-img {
+        background-image: url("../../images/features-bg-mobile.jpg");
+    }
+
+    .beta {
+        background-image: url("../../images/bg-beta-mobile.jpg");
+    }
+
     .grid {
         grid-template-columns: 1fr;
+    }
+
+    .features {
+        .section_text {
+            height: 300px;
+        }
+    }
+
+    .beta a {
+        margin-top: 25px;
     }
 }

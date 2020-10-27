@@ -1,6 +1,6 @@
 // MEDIA QUERIES FOR TABLETS
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     h1 {
         font-size: 36px;
     }
@@ -57,6 +57,14 @@
 
     .hero {
         background-image: url("../../images/moon-of-appalacia-tablet.jpg");
+    }
+
+    .section-features-img {
+        background-image: url("../../images/features-bg-tablet.jpg");
+    }
+
+    .beta {
+        background-image: url("../../images/bg-beta-tablet.jpg");
     }
 }
 
