@@ -210,7 +210,7 @@
     }
 }
 
-    .everyone, .features, .create {
+    .everyone, .create, .features, .pricing {
         .row {
             @include column-reverse;
         }
@@ -242,6 +242,10 @@
         background-image: url("../../images/features-bg-mobile.jpg");
     }
 
+    .section-pricing-img {
+        background-image: url("../../images/pricing-bg-mobile.jpg");
+    }
+
     .beta {
         background-image: url("../../images/bg-beta-mobile.jpg");
     }
@@ -250,7 +254,8 @@
         grid-template-columns: 1fr;
     }
 
-    .features {
+    .features,
+    .pricing {
         .section_text {
             height: 300px;
         }

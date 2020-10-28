@@ -1,7 +1,7 @@
-// FEATURES GRID
+// FEATURES SECTION
 .features {
     .section_text {
-        height: 480px;
+        @include sectionHeight;
     }
 }
 
