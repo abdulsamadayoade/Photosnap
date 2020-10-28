@@ -18,12 +18,12 @@
 
 @font-face {
   font-family: "DM Sans Regular";
-  src: url("../../textfont/DMSans-Regular.ttf") format("truetype");
+  src: url("../../../textfont/DMSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "DM Sans Bold";
-  src: url("../../textfont/DMSans-Bold.ttf") format("truetype");
+  src: url("../../../textfont/DMSans-Bold.ttf") format("truetype");
 }
 
 h1 {
@@ -122,7 +122,7 @@ p.opaque-black {
 }
 
 .invite-link-white::after {
-  background-image: url("../../images/arrow-white.svg");
+  background-image: url("../../../images/arrow-white.svg");
 }
 
 .invite-link-black {
@@ -131,7 +131,7 @@ p.opaque-black {
 }
 
 .invite-link-black::after {
-  background-image: url("../../images/arrow-black.svg");
+  background-image: url("../../../images/arrow-black.svg");
 }
 
 footer {
@@ -182,16 +182,16 @@ footer .footer_logo-box .social a {
 }
 
 footer .footer_logo-box .social a.facebook {
-  background-image: url("../../images/white-FB.svg");
+  background-image: url("../../../images/white-FB.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.facebook:hover {
-  background-image: url("../../images/facebook.svg");
+  background-image: url("../../../images/facebook.svg");
 }
 
 footer .footer_logo-box .social a.youtube {
-  background-image: url("../../images/white-YT.svg");
+  background-image: url("../../../images/white-YT.svg");
   background-size: cover;
 }
 
@@ -200,30 +200,30 @@ footer .footer_logo-box .social a.youtube:hover {
 }
 
 footer .footer_logo-box .social a.twitter {
-  background-image: url("../../images/white-Tw.svg");
+  background-image: url("../../../images/white-Tw.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.twitter:hover {
-  background-image: url("../../images/twitter.svg");
+  background-image: url("../../../images/twitter.svg");
 }
 
 footer .footer_logo-box .social a.pinterest {
-  background-image: url("../../images/white-Pin.svg");
+  background-image: url("../../../images/white-Pin.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.pinterest:hover {
-  background-image: url("../../images/pinterest.svg");
+  background-image: url("../../../images/pinterest.svg");
 }
 
 footer .footer_logo-box .social a.instagram {
-  background-image: url("../../images/white-Insta.svg");
+  background-image: url("../../../images/white-Insta.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.instagram:hover {
-  background-image: url("../../images/instagram.svg");
+  background-image: url("../../../images/instagram.svg");
 }
 
 footer .footer_logo-box .social img {
@@ -413,17 +413,17 @@ a {
 }
 
 .section-create-img {
-  background-image: url("../../images/create-and-share.jpg");
+  background-image: url("../../../images/create-and-share.jpg");
   background-size: cover;
 }
 
 .section-stories-img {
-  background-image: url("../../images/beautiful-stories.jpg");
+  background-image: url("../../../images/beautiful-stories.jpg");
   background-size: cover;
 }
 
 .section-everyone-img {
-  background-image: url("../../images/designed-for-everyone.jpg");
+  background-image: url("../../../images/designed-for-everyone.jpg");
   background-size: cover;
 }
 
@@ -506,98 +506,98 @@ a {
 }
 
 .image-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/mountains.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/mountains.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/mountains.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/mountains.jpg");
   background-size: cover;
 }
 
 .image-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/cityscapes.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/cityscapes.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/cityscapes.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/cityscapes.jpg");
   background-size: cover;
 }
 
 .image-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/18-days-voyage.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/18-days-voyage.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/18-days-voyage.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/18-days-voyage.jpg");
   background-size: cover;
 }
 
 .image-4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/architecturals.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/architecturals.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/architecturals.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/architecturals.jpg");
   background-size: cover;
 }
 
 .image-5 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/world-tour.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/world-tour.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/world-tour.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/world-tour.jpg");
   background-size: cover;
 }
 
 .image-6 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/unforeseen-corners.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/unforeseen-corners.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/unforeseen-corners.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/unforeseen-corners.jpg");
   background-size: cover;
 }
 
 .image-7 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/king-on-africa.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/king-on-africa.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/king-on-africa.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/king-on-africa.jpg");
   background-size: cover;
 }
 
 .image-8 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/trip-to-nowhere.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/trip-to-nowhere.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/trip-to-nowhere.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/trip-to-nowhere.jpg");
   background-size: cover;
 }
 
 .image-9 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/rage-of-the-sea.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/rage-of-the-sea.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/rage-of-the-sea.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/rage-of-the-sea.jpg");
   background-size: cover;
 }
 
 .image-10 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/running-free.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/running-free.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/running-free.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/running-free.jpg");
   background-size: cover;
 }
 
 .image-11 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/behind-the-waves.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/behind-the-waves.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/behind-the-waves.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/behind-the-waves.jpg");
   background-size: cover;
 }
 
 .image-12 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/calm-waters.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/calm-waters.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/calm-waters.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/calm-waters.jpg");
   background-size: cover;
 }
 
 .image-13 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/milky-way.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/milky-way.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/milky-way.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/milky-way.jpg");
   background-size: cover;
 }
 
 .image-14 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/dark-forest.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/dark-forest.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/dark-forest.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/dark-forest.jpg");
   background-size: cover;
 }
 
 .image-15 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/somwarpet.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/somwarpet.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/somwarpet.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/somwarpet.jpg");
   background-size: cover;
 }
 
 .image-16 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/land-of-dreams.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/land-of-dreams.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/land-of-dreams.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/land-of-dreams.jpg");
   background-size: cover;
 }
 
@@ -639,7 +639,7 @@ a {
 }
 
 .hero {
-  background-image: url("../../images/moon-of-appalacia.jpg");
+  background-image: url("../../../images/moon-of-appalacia.jpg");
   background-size: cover;
   padding: 30px 0;
 }
@@ -686,12 +686,12 @@ a {
 }
 
 .section-features-img {
-  background-image: url("../../images/features-bg.jpg");
+  background-image: url("../../../images/features-bg.jpg");
   background-size: cover;
 }
 
 .beta {
-  background-image: url("../../images/bg-beta.jpg");
+  background-image: url("../../../images/bg-beta.jpg");
   background-size: cover;
   padding: 70px 0;
   height: 300px;
@@ -707,6 +707,15 @@ a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+}
+
+.pricing .section_text {
+  height: 480px;
+}
+
+.section-pricing-img {
+  background-image: url("../../../images/pricing-bg.jpg");
+  background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -756,6 +765,9 @@ a {
   }
   .section-features-img {
     background-image: url("../../images/features-bg-tablet.jpg");
+  }
+  .section-pricing-img {
+    background-image: url("../../images/pricing-bg-tablet.jpg");
   }
   .beta {
     background-image: url("../../images/bg-beta-tablet.jpg");
@@ -992,7 +1004,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .everyone .row, .features .row, .create .row {
+  .everyone .row, .create .row, .features .row, .pricing .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -1018,6 +1030,9 @@ a {
   .section-features-img {
     background-image: url("../../images/features-bg-mobile.jpg");
   }
+  .section-pricing-img {
+    background-image: url("../../images/pricing-bg-mobile.jpg");
+  }
   .beta {
     background-image: url("../../images/bg-beta-mobile.jpg");
   }
@@ -1025,7 +1040,8 @@ a {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
-  .features .section_text {
+  .features .section_text,
+  .pricing .section_text {
     height: 300px;
   }
   .beta a {
