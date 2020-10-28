@@ -1,0 +1,11 @@
+// PRICING SECTION
+.pricing {
+    .section_text {
+        @include sectionHeight;
+    }
+}
+
+.section-pricing-img {
+    background-image: url("../../../images/pricing-bg.jpg");
+    @include bg-cover;
+}
