@@ -34,7 +34,7 @@ h1 {
     letter-spacing: $letter-spacing-L;
 }
 
-h1.white {
+.white {
     color: $white;
 }
 
@@ -42,6 +42,15 @@ h3 {
     font-family: $ff-bold;
     font-size: $font-size-h3;
     line-height: $line-height-M;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: $line-height-M;
+    letter-spacing: .2px;
+    font-family: $ff-bold;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 h5 {
@@ -57,4 +66,10 @@ p.opaque-grey {
 
 p.opaque-black {
     color: $opaque-black;
+}
+
+.heading {
+    font-size: $font-size-h1;
+    @include uppercase;
+    letter-spacing: $letter-spacing-L;
 }

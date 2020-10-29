@@ -9,3 +9,70 @@
     background-image: url("../../../images/pricing-bg.jpg");
     @include bg-cover;
 }
+
+// PRICING TABS
+
+.pricing-tabs {
+    padding: 90px 0;
+
+    .price-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+    }
+
+    .price-box {
+        background-color: #f5f5f5;
+        padding: 50px 40px;
+        text-align: center;
+        height: 440px;
+    
+        p {
+            color: $opaque-black;
+            line-height: $line-height-M;
+            margin-bottom: 45px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    
+    }
+    
+    .price-box.pro {
+        background-color: $black;
+        height: 510px;
+        padding-top: 88px;
+        transform: translateY(-30px);
+        position: relative;
+
+        p {
+            color: $opaque-grey;
+        }
+
+        h2, h4 {
+            color: $white;
+        }
+
+        button {
+            background-color: $white;
+            color: $black;
+
+            &:hover {
+                background-color: $light-grey;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 5px;
+                width: 100%;
+                background-image: linear-gradient(to right, #ffc593, #bc7198, #5a77ff);
+            }
+        }
+    }
+}
