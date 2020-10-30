@@ -673,7 +673,7 @@ button {
   margin: 0;
 }
 
-.hero h1 {
+.hero h2 {
   width: 400px;
   max-width: 100%;
 }
@@ -716,7 +716,7 @@ button {
   height: 300px;
 }
 
-.beta h1 {
+.beta h2 {
   width: 450px;
   max-width: 100%;
   padding-right: 10px;
@@ -807,7 +807,7 @@ button {
 }
 
 @media screen and (max-width: 1024px) {
-  h1 {
+  .heading {
     font-size: 36px;
   }
   .section_text {
@@ -952,7 +952,7 @@ button {
   .btn.btn-black {
     display: none;
   }
-  h1 {
+  .heading {
     font-size: 30px;
   }
   footer .footer-row {
@@ -1080,7 +1080,7 @@ button {
 }
 
 @media screen and (max-width: 560px) {
-  h1 {
+  .heading {
     font-size: 28px;
   }
   .section_text-box p {
