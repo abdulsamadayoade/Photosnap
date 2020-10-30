@@ -68,7 +68,7 @@
         display: none;
     }
 
-    h1 {
+    .heading {
         font-size: 30px;
     }
 
@@ -191,7 +191,7 @@
 }
 
 @media screen and (max-width: 560px) {
-    h1 {
+    .heading {
         font-size: 28px;
     }
 
