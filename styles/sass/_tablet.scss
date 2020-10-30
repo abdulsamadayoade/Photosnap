@@ -70,6 +70,43 @@
     .beta {
         background-image: url("../../images/bg-beta-tablet.jpg");
     }
+
+    .pricing-tabs {
+        .price-grid {
+            grid-template-columns: 1fr;
+            row-gap: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .price-box {
+            height: 300px;
+            padding: 40px;
+            text-align: left;
+            position: relative;
+
+            p, .btn {
+                max-width: 300px;
+            }
+
+            &-inner {
+                position: absolute;
+                right: 40px;
+                top: 40px;
+                text-align: right;
+            }
+        }
+
+        .price-box.pro {
+            transform: translateY(0);
+            height: 300px;
+            padding: 40px;
+        }
+
+        h4 {
+            text-align: left;
+        }
+    }
 }
 
 @media screen and (max-width: 800px) {
