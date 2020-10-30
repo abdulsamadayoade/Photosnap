@@ -738,7 +738,7 @@ button {
 }
 
 .pricing-tabs {
-  padding: 90px 0;
+  padding: 150px 0;
 }
 
 .pricing-tabs .price-grid {
@@ -754,7 +754,7 @@ button {
   background-color: #f5f5f5;
   padding: 50px 40px;
   text-align: center;
-  height: 440px;
+  height: 430px;
 }
 
 .pricing-tabs .price-box p {
@@ -771,7 +771,7 @@ button {
 
 .pricing-tabs .price-box.pro {
   background-color: #000000;
-  height: 510px;
+  height: 500px;
   padding-top: 88px;
   -webkit-transform: translateY(-30px);
           transform: translateY(-30px);
@@ -800,7 +800,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  height: 5px;
+  height: 6px;
   width: 100%;
   background-image: -webkit-gradient(linear, left top, right top, from(#ffc593), color-stop(#bc7198), to(#5a77ff));
   background-image: linear-gradient(to right, #ffc593, #bc7198, #5a77ff);
