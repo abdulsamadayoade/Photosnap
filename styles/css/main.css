@@ -947,25 +947,21 @@ button {
     margin: 0 auto;
   }
   .pricing-tabs .price-box {
-    height: 300px;
-    padding: 40px;
+    height: 410px;
+    padding: 30px 40px;
     text-align: left;
-    position: relative;
+  }
+  .pricing-tabs .price-box p {
+    margin-bottom: 35px;
   }
   .pricing-tabs .price-box p, .pricing-tabs .price-box .btn {
     max-width: 300px;
   }
-  .pricing-tabs .price-box-inner {
-    position: absolute;
-    right: 40px;
-    top: 40px;
-    text-align: right;
-  }
   .pricing-tabs .price-box.pro {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    height: 300px;
-    padding: 40px;
+    height: 410px;
+    padding: 30px 40px;
   }
   .pricing-tabs h4 {
     text-align: left;
@@ -1181,6 +1177,23 @@ button {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/land-of-dreams-m.jpg");
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/land-of-dreams-m.jpg");
   }
+  .pricing-tabs h4 {
+    text-align: center;
+  }
+  .pricing-tabs .price-box {
+    height: 350px;
+    padding: 40px;
+    text-align: center;
+  }
+  .pricing-tabs .price-box p {
+    max-width: 100%;
+  }
+  .pricing-tabs .price-box .btn {
+    margin: auto;
+  }
+  .pricing-tabs .price-box.pro {
+    height: 350px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1244,5 +1257,8 @@ button {
   }
   .beta a {
     margin-top: 25px;
+  }
+  .price-box {
+    height: 400px !important;
   }
 }
