@@ -80,27 +80,21 @@
         }
 
         .price-box {
-            height: 300px;
-            padding: 40px;
+            height: 410px;
+            padding: 30px 40px;
             text-align: left;
-            position: relative;
+
+            p {margin-bottom: 35px;}
 
             p, .btn {
                 max-width: 300px;
-            }
-
-            &-inner {
-                position: absolute;
-                right: 40px;
-                top: 40px;
-                text-align: right;
             }
         }
 
         .price-box.pro {
             transform: translateY(0);
-            height: 300px;
-            padding: 40px;
+            height: 410px;
+            padding: 30px 40px;
         }
 
         h4 {
