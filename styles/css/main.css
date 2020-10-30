@@ -939,6 +939,37 @@ button {
   .beta {
     background-image: url("../../images/bg-beta-tablet.jpg");
   }
+  .pricing-tabs .price-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    row-gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .pricing-tabs .price-box {
+    height: 300px;
+    padding: 40px;
+    text-align: left;
+    position: relative;
+  }
+  .pricing-tabs .price-box p, .pricing-tabs .price-box .btn {
+    max-width: 300px;
+  }
+  .pricing-tabs .price-box-inner {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    text-align: right;
+  }
+  .pricing-tabs .price-box.pro {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    height: 300px;
+    padding: 40px;
+  }
+  .pricing-tabs h4 {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 800px) {
