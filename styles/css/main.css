@@ -738,7 +738,61 @@ button {
 }
 
 .pricing-tabs {
-  padding: 150px 0;
+  padding: 100px 0;
+}
+
+.pricing-tabs .toggle-container {
+  margin-bottom: 40px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing-tabs .toggle-container span {
+  font-family: "DM Sans Bold", sans-serif;
+  font-size: 18px;
+}
+
+.pricing-tabs .toggle-container label {
+  background-color: #dfdfdf;
+  display: inline-block;
+  position: relative;
+  margin: 0 30px;
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.pricing-tabs .toggle-container label .ball {
+  height: 25px;
+  width: 25px;
+  background-color: #000000;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+
+.pricing-tabs .toggle-container input {
+  position: absolute;
+  left: -9999px;
+}
+
+.pricing-tabs .toggle-container input:checked + label .ball {
+  -webkit-transform: translateX(29px);
+          transform: translateX(29px);
 }
 
 .pricing-tabs .price-grid {
@@ -748,6 +802,7 @@ button {
       grid-template-columns: repeat(3, 1fr);
   -webkit-column-gap: 30px;
           column-gap: 30px;
+  padding: 35px 0 30px;
 }
 
 .pricing-tabs .price-box {
@@ -763,6 +818,10 @@ button {
   margin-bottom: 45px;
 }
 
+.pricing-tabs .price-box .yearly {
+  display: none;
+}
+
 .pricing-tabs .price-box .btn {
   display: block;
   width: 100%;
@@ -773,8 +832,8 @@ button {
   background-color: #000000;
   height: 500px;
   padding-top: 88px;
-  -webkit-transform: translateY(-30px);
-          transform: translateY(-30px);
+  -webkit-transform: translateY(-35px);
+          transform: translateY(-35px);
   position: relative;
 }
 
@@ -804,6 +863,14 @@ button {
   width: 100%;
   background-image: -webkit-gradient(linear, left top, right top, from(#ffc593), color-stop(#bc7198), to(#5a77ff));
   background-image: linear-gradient(to right, #ffc593, #bc7198, #5a77ff);
+}
+
+.show-yearly .price-box .yearly {
+  display: block;
+}
+
+.show-yearly .price-box .monthly {
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
