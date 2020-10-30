@@ -16,7 +16,18 @@
     background-image: url("../../../images/bg-beta.jpg");
     @include bg-cover;
     padding: 70px 0;
-    height: 300px;
+    height: 280px;
+    position: relative;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 6px;
+        background-image: linear-gradient(to bottom, #5a77ff, #bc7198, #ffc593);
+    }
 
     h2 {
         width: 450px;
