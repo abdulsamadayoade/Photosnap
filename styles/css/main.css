@@ -713,7 +713,19 @@ button {
   background-image: url("../../../images/bg-beta.jpg");
   background-size: cover;
   padding: 70px 0;
-  height: 300px;
+  height: 280px;
+  position: relative;
+}
+
+.beta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 6px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5a77ff), color-stop(#bc7198), to(#ffc593));
+  background-image: linear-gradient(to bottom, #5a77ff, #bc7198, #ffc593);
 }
 
 .beta h2 {
