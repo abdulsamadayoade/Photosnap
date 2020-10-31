@@ -32,7 +32,8 @@ button {
 }
 
 .container,
-.container-lg {
+.container-lg,
+.container-small {
     width: 100%;
     margin: 0 auto;
 }
@@ -44,4 +45,9 @@ button {
 
 .container-lg {
     max-width: 3000px;
+}
+
+.container-small {
+    max-width: 900px;
+    padding: 0 20px;
 }

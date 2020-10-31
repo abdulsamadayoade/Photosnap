@@ -1,6 +1,8 @@
 // MEDIA QUERIES FOR MOBILE
 
 @media screen and (max-width: 768px) {
+
+    // MOBILE NAVIGATION
     .menu_toggle {
         display: inline-block;
         background: transparent;
@@ -72,6 +74,7 @@
         font-size: 30px;
     }
 
+    // FOOTER
     footer {
 
         .footer-row {
@@ -104,6 +107,7 @@
         }
     }
 
+    // STORIES SECTION
     .hero {
         background-image: url("../../images/moon-of-appalacia-mobile.jpg");
         height: 320px;
@@ -181,6 +185,7 @@
         }
     }
 
+    // PRICING SECTION
     .pricing-tabs {
         h4 {
             text-align: center;
@@ -202,6 +207,53 @@
 
         .price-box.pro {
             height: 350px;
+        }
+    }
+
+    // COMPARE SECTION
+
+    .compare {
+        .table {
+            .table_head {
+                .col-2 {
+                    display: none;
+                }
+            }
+    
+            &_row {
+                flex-direction: column;
+                padding-left: 10px;
+                padding-right: 10px;
+                
+                .col-1 {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+
+                .col-2 {
+
+                    span {
+                        margin-right: 50px;
+                    }
+                }
+
+                .mobile-flex-column {
+                    display: flex;
+                    flex-direction: column;
+
+                    img {
+                        display: block;
+                        width: 17px;
+                        margin-top: 8px;
+
+                    }
+
+                    .plan-name {
+                        display:block;
+                        font-size: 10px;
+                    }
+                }
+            }
         }
     }
 }
@@ -229,10 +281,8 @@
     }
 
     .stories, .beta {
-        .row {
-        @include flex-column;
+        .row {@include flex-column;}
     }
-}
 
     .everyone, .create, .features, .pricing {
         .row {
@@ -291,5 +341,23 @@
 
     .price-box {
         height: 400px !important;
+    }
+
+    .compare {
+        .table {
+            &_row {
+                .col-2 {
+                    span {
+                        margin-right: 20px;
+                    }
+                }
+            }
+
+            &_head {
+                .col-1 {
+                    margin-bottom: 0;
+                }
+            }
+        }
     }
 }

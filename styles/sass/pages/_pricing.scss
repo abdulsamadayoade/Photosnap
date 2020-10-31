@@ -1,4 +1,4 @@
-// PRICING SECTION
+// PRICING HERO SECTION
 .pricing {
     .section_text {
         @include sectionHeight;
@@ -13,7 +13,7 @@
 // PRICING TABS
 
 .pricing-tabs {
-    padding: 100px 0;
+    padding: 100px 0 60px;
 
     .toggle-container {
         margin-bottom: 40px;
@@ -132,4 +132,72 @@
 
 .show-yearly .price-box .monthly {
     display: none;
+}
+
+// COMPARE SECTION
+%border-bottom {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .5px;
+    width: 90%;
+}
+
+.compare {
+    padding: 50px 0 130px;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    .table_row {
+        padding: 23px 30px;
+        display: flex;
+        position: relative;
+
+        &::after {
+            @extend %border-bottom;
+            background-color: $light-grey;
+        }
+
+        .col-1 {
+            margin-right: auto;
+        }
+
+        .col-2 {
+            display: flex;
+
+            span {
+                margin-right: 80px;
+            }
+
+            .plan-name {display: none;}
+        }
+
+        span {
+            font-family: $ff-bold;
+            font-size: $font-size-h4;
+            @include uppercase;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    .table_head {
+        position: relative;
+
+        &::after {
+            @extend %border-bottom;
+            background-color: $black;
+        }
+    }
+
+    .table_body {
+        .col-2 {
+            span {
+                margin-right: 105px;
+            }
+        }
+    }
 }
