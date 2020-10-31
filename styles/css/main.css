@@ -18,12 +18,12 @@
 
 @font-face {
   font-family: "DM Sans Regular";
-  src: url("../../textfont/DMSans-Regular.ttf") format("truetype");
+  src: url("../../../textfont/DMSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "DM Sans Bold";
-  src: url("../../textfont/DMSans-Bold.ttf") format("truetype");
+  src: url("../../../textfont/DMSans-Bold.ttf") format("truetype");
 }
 
 h1 {
@@ -137,7 +137,7 @@ p.opaque-black {
 }
 
 .invite-link-white::after {
-  background-image: url("../../images/arrow-white.svg");
+  background-image: url("../../../images/arrow-white.svg");
 }
 
 .invite-link-black {
@@ -146,7 +146,7 @@ p.opaque-black {
 }
 
 .invite-link-black::after {
-  background-image: url("../../images/arrow-black.svg");
+  background-image: url("../../../images/arrow-black.svg");
 }
 
 footer {
@@ -197,48 +197,48 @@ footer .footer_logo-box .social a {
 }
 
 footer .footer_logo-box .social a.facebook {
-  background-image: url("../../images/white-FB.svg");
+  background-image: url("../../../images/white-FB.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.facebook:hover {
-  background-image: url("../../images/facebook.svg");
+  background-image: url("../../../images/facebook.svg");
 }
 
 footer .footer_logo-box .social a.youtube {
-  background-image: url("../../images/white-YT.svg");
+  background-image: url("../../../images/white-YT.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.youtube:hover {
-  background-image: url("../../images/youtube.svg");
+  background-image: url("../../../images/youtube.svg");
 }
 
 footer .footer_logo-box .social a.twitter {
-  background-image: url("../../images/white-Tw.svg");
+  background-image: url("../../../images/white-Tw.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.twitter:hover {
-  background-image: url("../../images/twitter.svg");
+  background-image: url("../../../images/twitter.svg");
 }
 
 footer .footer_logo-box .social a.pinterest {
-  background-image: url("../../images/white-Pin.svg");
+  background-image: url("../../../images/white-Pin.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.pinterest:hover {
-  background-image: url("../../images/pinterest.svg");
+  background-image: url("../../../images/pinterest.svg");
 }
 
 footer .footer_logo-box .social a.instagram {
-  background-image: url("../../images/white-Insta.svg");
+  background-image: url("../../../images/white-Insta.svg");
   background-size: cover;
 }
 
 footer .footer_logo-box .social a.instagram:hover {
-  background-image: url("../../images/instagram.svg");
+  background-image: url("../../../images/instagram.svg");
 }
 
 footer .footer_logo-box .social img {
@@ -382,7 +382,8 @@ button {
 }
 
 .container,
-.container-lg {
+.container-lg,
+.container-small {
   width: 100%;
   margin: 0 auto;
 }
@@ -394,6 +395,11 @@ button {
 
 .container-lg {
   max-width: 3000px;
+}
+
+.container-small {
+  max-width: 900px;
+  padding: 0 20px;
 }
 
 .section_text {
@@ -432,17 +438,17 @@ button {
 }
 
 .section-create-img {
-  background-image: url("../../images/create-and-share.jpg");
+  background-image: url("../../../images/create-and-share.jpg");
   background-size: cover;
 }
 
 .section-stories-img {
-  background-image: url("../../images/beautiful-stories.jpg");
+  background-image: url("../../../images/beautiful-stories.jpg");
   background-size: cover;
 }
 
 .section-everyone-img {
-  background-image: url("../../images/designed-for-everyone.jpg");
+  background-image: url("../../../images/designed-for-everyone.jpg");
   background-size: cover;
 }
 
@@ -525,20 +531,20 @@ button {
 }
 
 .image-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/mountains.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/mountains.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/mountains.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/mountains.jpg");
   background-size: cover;
 }
 
 .image-2 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/cityscapes.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/cityscapes.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/cityscapes.jpg");
   background-size: cover;
 }
 
 .image-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../images/18-days-voyage.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../images/18-days-voyage.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5))), url("../../../images/18-days-voyage.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../../../images/18-days-voyage.jpg");
   background-size: cover;
 }
 
@@ -750,7 +756,7 @@ button {
 }
 
 .pricing-tabs {
-  padding: 100px 0;
+  padding: 100px 0 60px;
 }
 
 .pricing-tabs .toggle-container {
@@ -883,6 +889,73 @@ button {
 
 .show-yearly .price-box .monthly {
   display: none;
+}
+
+.compare .table_row::after, .compare .table_head::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: .5px;
+  width: 90%;
+}
+
+.compare {
+  padding: 50px 0 130px;
+}
+
+.compare h2 {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.compare .table_row {
+  padding: 23px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.compare .table_row::after {
+  background-color: #dfdfdf;
+}
+
+.compare .table_row .col-1 {
+  margin-right: auto;
+}
+
+.compare .table_row .col-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.compare .table_row .col-2 span {
+  margin-right: 80px;
+}
+
+.compare .table_row .col-2 .plan-name {
+  display: none;
+}
+
+.compare .table_row span {
+  font-family: "DM Sans Bold", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.compare .table_head {
+  position: relative;
+}
+
+.compare .table_head::after {
+  background-color: #000000;
+}
+
+.compare .table_body .col-2 span {
+  margin-right: 105px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1194,6 +1267,42 @@ button {
   .pricing-tabs .price-box.pro {
     height: 350px;
   }
+  .compare .table .table_head .col-2 {
+    display: none;
+  }
+  .compare .table_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .compare .table_row .col-1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .compare .table_row .col-2 span {
+    margin-right: 50px;
+  }
+  .compare .table_row .mobile-flex-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .compare .table_row .mobile-flex-column img {
+    display: block;
+    width: 17px;
+    margin-top: 8px;
+  }
+  .compare .table_row .mobile-flex-column .plan-name {
+    display: block;
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1260,5 +1369,11 @@ button {
   }
   .price-box {
     height: 400px !important;
+  }
+  .compare .table_row .col-2 span {
+    margin-right: 20px;
+  }
+  .compare .table_head .col-1 {
+    margin-bottom: 0;
   }
 }
