@@ -2,8 +2,6 @@
  
 <img src="images/screenshot.jpg" alt="project">
 
-This is an ongoing project.
-
 Photosnap is a photography website designed by FrontEnd Mentor and coded by me. 
 
 The project is a challenge from FrontEnd Mentor which I partake in.
