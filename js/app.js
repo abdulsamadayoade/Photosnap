@@ -10,6 +10,15 @@ menuButton.addEventListener('click', function () {
     close.classList.toggle('active');
 });
 
+// CLOSE THE NAV WHEN NAVLNKS ARE CLICKED
+let navLinks = document.querySelectorAll('.nav_list-link');
+
+navLinks.forEach(function (navLink) {
+    navLink.addEventListener('click', function () {
+        navList.classList.remove('active');
+    })
+})
+
 // PRICING TABS SWITCH
 const priceToggle = document.getElementById('toggle');
 const priceGrid = document.querySelector('.price-grid');
